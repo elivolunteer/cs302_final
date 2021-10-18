@@ -1,0 +1,15 @@
+CS302 Final Project
+Eli Carter
+GitHub: https://github.com/elivolunteer/cs302_final
+
+Challenge07 Rubric:
+
+10pts - Watch intro videos for Google NPL API
+5pts - Watch intro videos for Twython API
+10pts - Set up and start twitter developer account 
+15pts - Writing script to connect to twitter and scrape tweets from trending tags
+
+Hour Log:
+
+
+Report:
