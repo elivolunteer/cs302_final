@@ -13,3 +13,5 @@ Hour Log:
 
 
 Report:
+1.5 hrs Planning project with group
+0.75 hrs Watching Sentdex Google API intro videos
