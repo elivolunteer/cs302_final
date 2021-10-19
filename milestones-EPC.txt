@@ -5,7 +5,7 @@ GitHub: https://github.com/elivolunteer/cs302_final
 Challenge07 Rubric:
 
 10pts - Watch intro videos for Google NPL API
-5pts - Watch intro videos for Twython API
+5pts - Watch intro videos for Tweepy API
 10pts - Set up and start twitter developer account 
 15pts - Writing script to connect to twitter and scrape tweets from trending tags
 
@@ -14,4 +14,5 @@ Hour Log:
 
 Report:
 1.5 hrs Planning project with group
-0.75 hrs Watching Sentdex Google API intro videos
+1.0 hrs Watching Sentdex Google API intro videos
+1.0 hrs Researched and installed twitter apis
