@@ -1,0 +1,19 @@
+Milestones for challenge 7:
+
+1. Learn how to use and run python within VSCode
+2. Watch basic python tutorials to learn the basics of the language, "Hello World"
+3. Create a python file to connect to the github repo
+4. Recreate a past challenge/lab using python instead of C++
+5. Push to github, make sure other team members can see/use
+6. Watch googlecloud platform videos 
+
+Rubric:
+5pts - setting up python in vscode
+5pts - watching python videos and creating a "hello world" file that works
+5pts - setting up a python file with github
+15pts - rewriting a past lab with python, works properly, github push/pull
+10pts - watch google cloud videos
+
+timelog:
+day	date	timespent	task
+Mon	10/18	3hrs		completed setting up python in vscode, watching basic videos, hello world and basic code, worked on rewriting project1 into python
