@@ -1,0 +1,17 @@
+Milestone:
+1. Learn how to use Google Natural Language API to receive analysts on inputted text. 
+Points: 20
+2. Use the Natural Language API, and store data into json file to save on using up valuable credits.
+Points: 30
+3. Create functions to get certain data from json file.
+Points: 50
+
+Time Log:
++1.5 hours of planning out project. 
++1 hours for watching youtube videos on Google Natural Language API
++3 hours for figuring out how to google auththinication to work.
++1 hours for setting up virtual env and writting funtion to get sentement from text
+
+Total hours: 6.5
+
+   
