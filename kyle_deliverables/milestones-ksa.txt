@@ -17,3 +17,4 @@ Rubric:
 timelog:
 day	date	timespent	task
 Mon	10/18	3hrs		completed setting up python in vscode, watching basic videos, hello world and basic code, worked on rewriting project1 into python
+Thu 10/21   1hr         Got input file parsed correctly for proj1 rewrite, figured out how classes work and started implementation   
