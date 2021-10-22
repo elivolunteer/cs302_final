@@ -19,3 +19,6 @@ day	date	timespent	task
 Mon	10/18	3hrs		completed setting up python in vscode, watching basic videos, hello world and basic code, worked on rewriting project1 into python
 Thu 10/21   1hr         Got input file parsed correctly for proj1 rewrite, figured out how classes work and started implementation   
 Thu 10/21   2hr         Set up maps (dictionaries), correctly loaded data into maps and classes, printed it to user. Still need to get it ordered/sorted
+
+How challenge 7 went:
+I thought this challenge went really well. I have been enjoying taking time to learn python and apply it to old labs. The only problem I had with it was trying to balance the time with this with the time spent on project 4.
