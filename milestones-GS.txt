@@ -15,3 +15,7 @@ Time Log:
 Total hours: 6.5
 
    
+report:
+Getting google cloud to work was a pain in the butt.Had to figure out how to pass the creditials to the client portion of the google lib. Once that was done, getting the sentiment
+of a text was easy. Did not place info to the json file or create other funtions to get info from json file. Was waiting till untill partner had finished the twitter portion of
+the project.
