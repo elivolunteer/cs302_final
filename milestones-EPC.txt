@@ -16,3 +16,9 @@ Report:
 1.5 hrs Planning project with group
 1.0 hrs Watching Sentdex Google API intro videos
 1.0 hrs Researched and installed twitter apis
+3.0 hrs Wrote python connection to twitter, learned how the data returned way srtuctures, parsed, and saved said data
+
+Total: 6.5 hrs
+
+The challenge went well, it was interesting learning how to connect to different APIs. Figuring out how to setup our structure and 
+python enviornment was also interested.
