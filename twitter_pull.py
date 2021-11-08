@@ -1,3 +1,4 @@
+import datetime
 import json
 import pprint
 import tweepy
@@ -10,13 +11,13 @@ def gen_tweets(query):
     api = tweepy.API(auth)
 
     #data collection
-    response = api.search_30_day(label="research", query=query)
+    response = api.search_full_archive(label="dataGen", query=query, fromDate=202108101200, maxResults=100)
     tweets_dict = {}
     for source in response:
         tweets_dict[source._json['id_str']] = source._json['text']
 
     #data dump
-    with open('../data/tweets.json', 'w') as f:
+    with open('data/tweets.json', 'w') as f:
         json.dump(tweets_dict, f, indent=4)
 
     return 0

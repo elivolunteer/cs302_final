@@ -1,9 +1,10 @@
 from modules.googleNatrualLanguageProcessing import get_sentiment
 # from modules.twitter_pull import gen_tweets
 import modules.ReadWrite as rw
+from twitter_pull import gen_tweets
 
 def main():
-    # gen_tweets("Univeristy of Tennessee")
+    #gen_tweets("CS students")
 
     twitter_data = rw.get_data("data/tweets.json")
     ids = {}
