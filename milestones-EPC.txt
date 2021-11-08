@@ -22,3 +22,8 @@ Total: 6.5 hrs
 
 The challenge went well, it was interesting learning how to connect to different APIs. Figuring out how to setup our structure and 
 python enviornment was also interested.
+
+Individual Demo and Update 9/11/21:
+Hours Log: 
+   Researching NPL Strats:
+    Start with regressors (Linear, SVM, XGBoost) - 2.5 hours
