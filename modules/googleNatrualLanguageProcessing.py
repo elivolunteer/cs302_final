@@ -2,7 +2,7 @@
 from google.cloud import language_v1
 import os
 # Set enviroment var to the path of the key
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "modules\\theprotector-329416-d6760fe0283a.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "theprotector-329416-8d3ddc56c477.json"
 
 
 def get_sentiment(text):
