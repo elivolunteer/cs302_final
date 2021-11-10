@@ -8,22 +8,23 @@ def main():
     #gen_tweets("CS students")
 
     twitter_data = rw.get_data("data/tweets.json")
-    ids = {}
+    Entity = {}
+    id_data = {}
     data = {}
 
     
 
     for id in twitter_data:
         print(id)
-        # sentiment = get_sentiment(rw.get_value_by_id(twitter_data,id))
+        sentiment = get_sentiment(rw.get_value_by_id(twitter_data,id))
         entsent = get_entity_sentiment(rw.get_value_by_id(twitter_data,id))
+        for entity in entsent.entities:
+            entSentiment = entity.sentiment
+            Entity[entity.name] = {"score":entSentiment.score,"magnitude":entSentiment.magnitude}
         # print("Score: {} Magnitude {}".format(sentiment.score,sentiment.magnitude))
-        # ids = {"score":sentiment.score,"magnitude":sentiment.magnitude}
-        # data[id] =  ids
+        id_data = {"Score":sentiment.score,"Magnitude":sentiment.magnitude,"Entity":Entity}
+        data[id] = id_data
         
-
-        
-
 
     rw.store_data("data/sentiment_data.json",data)
 

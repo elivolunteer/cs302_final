@@ -23,9 +23,9 @@ def get_entity_sentiment(text):
     encoding_type = language_v1.EncodingType.UTF8
     response = client.analyze_entity_sentiment(request = {'document': document, 'encoding_type': encoding_type})
     # Loop through entitites returned from the API
-    for entity in response.entities:
-        print(u"Representative name for the entity: {}".format(entity.name))
-        entSentiment = entity.sentiment
-        print(u"Entity sentiment score: {}".format(entSentiment.score))
-        print(u"Entity sentiment magnitude: {}".format(entSentiment.magnitude))# 
+    # for entity in response.entities:
+    #     print(u"Representative name for the entity: {}".format(entity.name))
+    #     entSentiment = entity.sentiment
+    #     print(u"Entity sentiment score: {}".format(entSentiment.score))
+    #     print(u"Entity sentiment magnitude: {}".format(entSentiment.magnitude))
     return response
