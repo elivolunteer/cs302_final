@@ -11,15 +11,18 @@ def gen_tweets(query):
     api = tweepy.API(auth)
 
     #loop back in time and open and append to data files
-    start_time = 20200000000
-    end_time = 202012010000
+    start_date = datetime.date(2020, 8, 10)
+    end_date = datetime.date(2021, 8, 10)
+    delta = datetime.timedelta(days=30)
     tweets_dict = {}
 
-    for i in range(start_time, end_time, 3000000):
+    while start_date <= end_date:
         #data collection
-        response = api.search_full_archive(label="dataGen", query=query, fromDate=i, toDate=i+3000000, maxResults=100)
+        response = api.search_full_archive(label="dataGen", query=query, fromDate=start_date.strftime('%Y%m%d0000'), toDate=(start_date+delta).strftime('%Y%m%d0000'), maxResults=100)
         for source in response:
-            tweets_dict[source._json['id_str']] = source._json['text']
+            if source.ang == "en":
+                tweets_dict[source._json['id_str']] = source._json['text']
+        start_date += delta
 
     #data dump
     with open('data/tweets.json', 'r+') as f:
