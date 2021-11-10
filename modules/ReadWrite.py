@@ -20,5 +20,5 @@ def store_data(file,_dict):
         #     feed = json.load(feedsjson)
         #     json.dump(_dict,feed)
         # else:
-        json.dump(_dict,feedsjson,indent=4)
+        json.dump(_dict,feedsjson,indent=6)
             
