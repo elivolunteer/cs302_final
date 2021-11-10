@@ -2,7 +2,7 @@
 from google.cloud import language_v1
 import os
 # Set enviroment var to the path of the key
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "theprotector-329416-8d3ddc56c477.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "modules/theprotector-329416-8d3ddc56c477.json"
 
 
 def get_sentiment(text):
@@ -14,7 +14,6 @@ def get_sentiment(text):
 
 
 def get_entity_sentiment(text):
-    """" """
     client = language_v1.LanguageServiceClient() #
     # following block added by Kyle
     # attempting entity sentiment analysis
