@@ -25,5 +25,12 @@ python enviornment was also interested.
 
 Individual Demo and Update 9/11/21:
 Hours Log: 
-   Researching NPL Strats:
-    Start with regressors (Linear, SVM, XGBoost) - 2.5 hours
+   Researching NPL Strats: 2.5 hrs
+    Start with regressors (Linear, SVM, XGBoost) - 2.5 hrs
+   Reading papers on NLP standard practices: 1 hr
+      https://aclanthology.org/S17-2089.pdf - 0.75 hrs
+      https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9142175&tag=1 - 0.25 hrs
+   Creating a baseline of "random guessing" to compare models to:
+   
+   Created BYODS presentation: 1.5 hrs
+   
