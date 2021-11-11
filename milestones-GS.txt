@@ -11,8 +11,11 @@ Time Log:
 +1 hours for watching youtube videos on Google Natural Language API
 +3 hours for figuring out how to google auththinication to work.
 +1 hours for setting up virtual env and writting funtion to get sentement from text
++4 hours for learning how to get the json lib to work
++3 hours for getting writing and implementing the json file to read a json file and write a json file. Created useful funtions to make the task easier
++2 hours for figuring out how the team can use the program. Two of us use windows and  one uses mac. Conda seems do the trick and each of use installing the files manually works. virtual env dosn't work.
 
-Total hours: 6.5
+Total hours: 15.5
 
    
 report:
