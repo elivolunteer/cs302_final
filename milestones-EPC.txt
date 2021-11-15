@@ -34,6 +34,7 @@ Hours Log:
    Extending twitter pull: 2 hrs
       Loop through the last year with python datetime objects and append to files - 1 hr
       Pulling full data set and hunting down errors with apis - 1 hr
-   
    Created BYODS presentation: 1.5 hrs
-   
+   Random Forest: 1 hrs
+      Research and reading of random trees, forests, and bagging/boosting - 0.5 hrs
+      Creating simple grid search of random forest - 0.5 hrs
