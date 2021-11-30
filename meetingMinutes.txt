@@ -1,0 +1,30 @@
+10/5/21 All present 
+    - Discussed the basic outline of the project
+    - Sentiment analysis of social media posts
+    - Created proposal
+
+10/18/21 All present 
+    - Went through google api stuff
+    - Looked into virtual machine usage
+    - divided up work among members
+
+10/19/21 All present 
+    - made switch to anaconda from virtual machine
+
+11/2/21 All present 
+    - went over stuff for our project update, no significant roadblocks
+
+11/10/21 All present 
+    - created BYODS presentation
+    - worked on getting entity sentiment working
+    - generated larger sample of tweets
+
+11/22/21 All present 
+    - Entity sentiment working
+    - worked on models more
+    - created an analyze.py to print out sentiment and compare our stuff against google (troubleshooting, setting up pickle)
+
+11/29/21 All present 
+    - finalizing analyze.py
+    - created another presentation to show in class tomorrow
+    - finishing other smaller parts of the project to turn in

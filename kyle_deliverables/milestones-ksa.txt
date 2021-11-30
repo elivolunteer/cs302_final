@@ -17,10 +17,15 @@ Rubric:
 timelog:
 day	date	timespent	task
 Mon	10/18	3hrs		completed setting up python in vscode, watching basic videos, hello world and basic code, worked on rewriting project1 into python
+Tue 10/19   1hr         team meeting and discussion
 Thu 10/21   1hr         Got input file parsed correctly for proj1 rewrite, figured out how classes work and started implementation   
 Thu 10/21   2hrs        Set up maps (dictionaries), correctly loaded data into maps and classes, printed it to user. Still need to get it ordered/sorted
+Tue 11/2    1hr         discussed project update
 Wed 11/10   4hrs        learn about the google API and sentiment analysis, trying to determine if analyzing a single word is possible. Ended up trying to implement Entity sentiment analysis
-Total: 10hrs
+Mon 11/22   2hrs        Worked on setting up "analyze.py" to get it to run our analysis against googles for an inputted text. Having trouble with pickle
+Sun 11/28   0.5hrs      Got random forest and google sentiment printing in analyze.py
+Mon 11/29   3hrs        Added XGBoost into the analyze, finalized the project to turn in and to present
+Total: 17.5hrs
 
 How challenge 7 went:
 I thought this challenge went really well. I have been enjoying taking time to learn python and apply it to old labs. The only problem I had with it was trying to balance the time with this with the time spent on project 4.
