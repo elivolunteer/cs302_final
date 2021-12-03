@@ -34,11 +34,19 @@ Hours Log:
    Extending twitter pull: 2 hrs
       Loop through the last year with python datetime objects and append to files - 1 hr
       Pulling full data set and hunting down errors with apis - 1 hr
-   Created BYODS presentation: 1.5 hrs
-   Random Forest: 3 hrs
+   Random Forest: 3.5 hrs
       Research and reading of random trees, forests, and bagging/boosting - 0.5 hrs
       Creating simple grid search of random forest - 0.5 hrs
       Focused on num estimators parameter and added plotting functions from grid search - 1.5 hrs
       Narrowed down max depth range - 0.5 hrs
-   Keras Neural Network: 1 hrs
+      Narrowed down forest size range - 0.5 hrs
+   Keras Neural Network: 6 hrs
       Created simple neural network in keras in python notebook - 1 hr
+      Tried different architectures and researched different encodings - 5 hrs
+   Odds and ends: 4 hrs
+      Created exportable versions of classifers - 1 hr
+      Created BYODS presentation - 1.5 hrs
+      Created demo day presentation - 0.5 hrs
+      Created README / User Guide - 1 hr
+   
+   Total: 19.25 hours
